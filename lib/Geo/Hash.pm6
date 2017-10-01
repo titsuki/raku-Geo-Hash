@@ -73,11 +73,11 @@ Returns the 8-neighboring positions, where each position is represented as hash 
 
 =head1 AUTHOR
 
-Itsuki Toyota <titsuki@cpan.org>
+titsuki <titsuki@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2017 Itsuki Toyota
+Copyright 2017 titsuki
 
 libgeohash ( https://github.com/simplegeo/libgeohash ) by Derek Smith is licensed under the BSD-3-Clause License.
 
