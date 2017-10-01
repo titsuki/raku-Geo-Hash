@@ -1,0 +1,22 @@
+{
+  "authors" : [
+    "Itsuki Toyota"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "description" : "A bindings for libgeohash",
+  "license" : "BSD-3-Clause",
+  "name" : "Geo::Hash",
+  "perl" : "6.c",
+  "provides" : {
+    "Geo::Hash" : "lib/Geo/Hash.pm6",
+    "Geo::Hash::Coord" : "lib/Geo/Hash/Coord.pm6"
+  },
+  "resources" : [
+    "libraries/geohash"
+  ],
+  "source-url" : "",
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
