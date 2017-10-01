@@ -4,7 +4,7 @@
   ],
   "build-depends" : [ ],
   "depends" : [ ],
-  "description" : "A bindings for libgeohash",
+  "description" : "A Perl 6 bindings for libgeohash",
   "license" : "BSD-3-Clause",
   "name" : "Geo::Hash",
   "perl" : "6.c",

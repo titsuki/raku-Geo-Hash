@@ -1,7 +1,7 @@
 NAME
 ====
 
-Geo::Hash - A bindings for libgeohash
+Geo::Hash - A Perl 6 bindings for libgeohash
 
 SYNOPSIS
 ========
@@ -12,12 +12,12 @@ SYNOPSIS
     say $hash; # OUTPUT: «ezs42»
     my Geo::Hash::Coord $coord = geo-decode($hash);
     say $coord.latitude; # OUTPUT: «42.60498046875e0»
-    say geo-neighbors($hash); # OUTPUT: «("ezs48", "ezs49", "ezs43", "ezs41", "ezs40", "ezefp", "ezefr", "ezefx")»
+    say geo-neighbors($hash); # OUTPUT: «[ezs48 ezs49 ezs43 ezs41 ezs40 ezefp ezefr ezefx]»
 
 DESCRIPTION
 ===========
 
-Geo::Hash is a bindings for libgeohash.
+Geo::Hash is a Perl 6 bindings for libgeohash.
 
 SUBS
 ----
