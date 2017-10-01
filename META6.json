@@ -15,7 +15,7 @@
   "resources" : [
     "libraries/geohash"
   ],
-  "source-url" : "",
+  "source-url" : "git://github.com/titsuki/p6-Geo-Hash.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.1"
