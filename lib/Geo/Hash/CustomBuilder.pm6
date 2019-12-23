@@ -1,7 +1,10 @@
+use v6;
 use LibraryMake;
+use Distribution::Builder::MakeFromJSON;
 
-class Build {
-    method build($workdir) {
+class Geo::Hash::CustomBuilder:ver<0.0.1> is Distribution::Builder::MakeFromJSON {
+    method build(IO() $work-dir = $*CWD) {
+        my $workdir = ~$work-dir;
         my $srcdir = "$workdir/src";
         my %vars = get-vars($workdir);
         %vars<geohash> = $*VM.platform-library-name('geohash'.IO);
@@ -12,10 +15,5 @@ class Build {
 	chdir($srcdir);
 	shell(%vars<MAKE>);
 	chdir($goback);
-    }
-    
-    method isa($what) {
-        return True if $what.^name eq 'Panda::Builder';
-        callsame;
     }
 }
