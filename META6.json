@@ -3,8 +3,11 @@
     "titsuki"
   ],
   "build-depends" : [
-    "LibraryMake"
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Geo::Hash::CustomBuilder"
   ],
+  "builder" : "Geo::Hash::CustomBuilder",
   "depends" : [ ],
   "description" : "A Perl 6 bindings for libgeohash",
   "license" : "BSD-3-Clause",
@@ -12,7 +15,8 @@
   "perl" : "6.c",
   "provides" : {
     "Geo::Hash" : "lib/Geo/Hash.pm6",
-    "Geo::Hash::Coord" : "lib/Geo/Hash/Coord.pm6"
+    "Geo::Hash::Coord" : "lib/Geo/Hash/Coord.pm6",
+    "Geo::Hash::CustomBuilder" : "lib/Geo/Hash/CustomBuilder.pm6"
   },
   "resources" : [
     "libraries/geohash"

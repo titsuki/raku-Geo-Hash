@@ -61,3 +61,4 @@ Copyright 2017 titsuki
 libgeohash ( https://github.com/simplegeo/libgeohash ) by Derek Smith is licensed under the BSD-3-Clause License.
 
 This library is free software; you can redistribute it and/or modify it under the BSD-3-Clause License.
+

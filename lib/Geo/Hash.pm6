@@ -6,9 +6,9 @@ use Geo::Hash::Coord;
 
 my constant $library = %?RESOURCES<libraries/geohash>.Str;
 
-my sub geohash_encode(num64, num64, int32) returns Str is native($library) { * }
-my sub geohash_decode(Str) returns Geo::Hash::Coord is native($library) { * }
-my sub geohash_neighbors(Str) returns CArray[Str] is native($library) { * }
+my sub geohash_encode(num64, num64, int32 --> Str) is native($library) { * }
+my sub geohash_decode(Str --> Geo::Hash::Coord) is native($library) { * }
+my sub geohash_neighbors(Str --> CArray[Str]) is native($library) { * }
 
 sub geo-encode(Num $lat, Num $lng, Int $precision --> Str) is export(:MANDATORY) {
     geohash_encode($lat, $lng, $precision)
