@@ -1,5 +1,5 @@
 use v6.c;
-unit class Geo::Hash:ver<0.0.1>;
+unit class Geo::Hash:ver<0.0.2>;
 
 use NativeCall;
 use Geo::Hash::Coord;
