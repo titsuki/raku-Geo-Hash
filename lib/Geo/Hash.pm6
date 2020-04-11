@@ -29,7 +29,7 @@ sub geo-neighbors(Str $hash --> List) is export(:MANDATORY) {
 
 =head1 NAME
 
-Geo::Hash - A Perl 6 bindings for libgeohash
+Geo::Hash - A Raku bindings for libgeohash
 
 =head1 SYNOPSIS
 
@@ -43,7 +43,7 @@ Geo::Hash - A Perl 6 bindings for libgeohash
 
 =head1 DESCRIPTION
 
-Geo::Hash is a Perl 6 bindings for libgeohash.
+Geo::Hash is a Raku bindings for libgeohash.
 
 =head2 SUBS
 
