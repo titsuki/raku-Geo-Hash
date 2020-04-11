@@ -7,7 +7,7 @@
 //
 
 // Relicensed under the BSD-3-Clause License:
-// p6-GeoHash -- A Perl 6 bindings for libgeohash
+// raku-GeoHash -- A Raku bindings for libgeohash
 //  Copyright(C) 2017 titsuki <titsuki@cpan.org>
 // For more details, see the "LICENSE" file.
 

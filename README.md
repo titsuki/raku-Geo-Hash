@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/titsuki/p6-Geo-Hash.svg?branch=master)](https://travis-ci.org/titsuki/p6-Geo-Hash)
+[![Build Status](https://travis-ci.org/titsuki/raku-Geo-Hash.svg?branch=master)](https://travis-ci.org/titsuki/raku-Geo-Hash)
 
 NAME
 ====
 
-Geo::Hash - A Perl 6 bindings for libgeohash
+Geo::Hash - A Raku bindings for libgeohash
 
 SYNOPSIS
 ========
@@ -19,7 +19,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Geo::Hash is a Perl 6 bindings for libgeohash.
+Geo::Hash is a Raku bindings for libgeohash.
 
 SUBS
 ----
