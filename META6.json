@@ -1,5 +1,5 @@
 {
-  "auth" : "/home/itoyota/Programs/raku-Geo-Hash/resources/libraries/libgeohash.so\n",
+  "auth" : "cpan:TITSUKI",
   "authors" : [
     "titsuki"
   ],
