@@ -1,8 +1,8 @@
 use v6.c;
-unit class Geo::Hash:ver<0.0.2>;
-
 use NativeCall;
 use Geo::Hash::Coord;
+
+unit class Geo::Hash:ver<0.0.2>:auth<cpan:TITSUKI>;
 
 my constant $library = %?RESOURCES<libraries/geohash>.Str;
 

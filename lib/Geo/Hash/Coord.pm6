@@ -1,4 +1,4 @@
-unit class Geo::Hash::Coord is repr('CStruct');
+unit class Geo::Hash::Coord:ver<0.0.2>:auth<cpan:TITSUKI> is repr('CStruct');
 
 use NativeCall;
 
